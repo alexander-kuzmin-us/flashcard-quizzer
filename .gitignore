@@ -1,0 +1,31 @@
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Tool caches
+.pytest_cache/
+.mypy_cache/
+.coverage
+
+# NOTE: data/ is intentionally NOT ignored (the sample decks ship with the repo).
+# NOTE: htmlcov/ is intentionally committed as the coverage deliverable.
+
+# Local quiz progress files (if you point --progress-dir inside the repo)
+.flashcard_quizzer/
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

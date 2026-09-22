@@ -1,0 +1,47 @@
+[project]
+name = "flashcard-quizzer"
+version = "1.0.0"
+description = "A terminal flashcard quiz app with sequential, random and adaptive modes."
+requires-python = ">=3.10"
+
+[tool.black]
+line-length = 88
+target-version = ["py310"]
+extend-exclude = '''
+/(
+    \.claude
+  | htmlcov
+  | venv
+)/
+'''
+
+[tool.isort]
+profile = "black"
+line_length = 88
+skip = ["venv", ".claude", "htmlcov"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.coverage.run]
+source = ["."]
+omit = ["tests/*", "venv/*", ".claude/*"]
+branch = true
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = false
+exclude_lines = [
+    "pragma: no cover",
+    "if __name__ == .__main__.:",
+    "raise NotImplementedError",
+]
+
+[tool.coverage.html]
+directory = "htmlcov"
+
+[tool.mypy]
+python_version = "3.10"
+strict = true
+exclude = ["venv/", "htmlcov/", "\\.claude/"]

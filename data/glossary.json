@@ -1,0 +1,54 @@
+[
+  {
+    "front": "DNS",
+    "back": "Domain Name System"
+  },
+  {
+    "front": "HTTP",
+    "back": "Hypertext Transfer Protocol"
+  },
+  {
+    "front": "TLS",
+    "back": "Transport Layer Security"
+  },
+  {
+    "front": "SSH",
+    "back": "Secure Shell"
+  },
+  {
+    "front": "VPC",
+    "back": "Virtual Private Cloud"
+  },
+  {
+    "front": "CDN",
+    "back": "Content Delivery Network"
+  },
+  {
+    "front": "LB",
+    "back": "Load Balancer"
+  },
+  {
+    "front": "API",
+    "back": "Application Programming Interface"
+  },
+  {
+    "front": "CI/CD",
+    "back": "Continuous Integration / Continuous Delivery",
+    "alternatives": [
+      "Continuous Integration and Continuous Delivery",
+      "Continuous Integration / Continuous Deployment"
+    ]
+  },
+  {
+    "front": "SLA",
+    "back": "Service Level Agreement"
+  },
+  {
+    "front": "TTL",
+    "back": "Time To Live"
+  },
+  {
+    "front": "NAT",
+    "back": "Network Address Translation"
+  }
+]

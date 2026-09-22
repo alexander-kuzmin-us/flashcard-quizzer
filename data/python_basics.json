@@ -1,0 +1,48 @@
+{
+  "name": "Python Basics",
+  "cards": [
+    {
+      "front": "Keyword used to define a function",
+      "back": "def"
+    },
+    {
+      "front": "Built-in function that returns the length of a list",
+      "back": "len"
+    },
+    {
+      "front": "Mutable, ordered sequence type written with square brackets",
+      "back": "list"
+    },
+    {
+      "front": "Immutable, ordered sequence type written with parentheses",
+      "back": "tuple"
+    },
+    {
+      "front": "Mapping type that stores key-value pairs",
+      "back": "dict",
+      "alternatives": [
+        "dictionary"
+      ]
+    },
+    {
+      "front": "Keyword used to handle exceptions together with try",
+      "back": "except"
+    },
+    {
+      "front": "Value representing the absence of a value",
+      "back": "None"
+    },
+    {
+      "front": "Operator used for integer (floor) division",
+      "back": "//"
+    },
+    {
+      "front": "Keyword that produces a value from a generator",
+      "back": "yield"
+    },
+    {
+      "front": "Statement used to bring in a module",
+      "back": "import"
+    }
+  ]
+}
