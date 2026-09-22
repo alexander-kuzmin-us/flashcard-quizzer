@@ -73,7 +73,7 @@ Python standard library.
 ### Installation
 
 ```bash
-git clone <your-repo-url> flashcard-quizzer
+git clone https://github.com/alexander-kuzmin-us/flashcard-quizzer flashcard-quizzer
 cd flashcard-quizzer
 
 # macOS / Linux
